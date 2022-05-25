@@ -59,33 +59,6 @@ header > img:nth-child(1) {
   margin-top: 50px;
   animation: animate_left 10s linear infinite;
 }
-/* animation Effects for left image in the header */
-@keyframes animate_left {
-  0%,
-  100% {
-    transform: translateX(-40px);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-}
-header > img:nth-child(2) {
-  width: 140px;
-}
-header > img:nth-child(3) {
-  margin-top: 50px;
-  animation: animate_right 10s linear infinite;
-}
-/* animation Effects for right image in the header */
-@keyframes animate_right {
-  0%,
-  100% {
-    transform: translateX(40px);
-  }
-  50% {
-    transform: translateY(30px);
-  }
-}
 
 /* style for center image */
 .centerimage {
@@ -209,27 +182,7 @@ input[type="number"] {
   color: #171817;
   margin-bottom: 10px;
 }
-.card-title {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-.card-title h4 {
-  color: rgb(255, 0, 93);
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.card-heading h4 {
-  background-color: rgba(211, 208, 208, 0.289);
-  display: inline;
-  color: #075226;
-  padding: 1px 2px;
-  font-size: 20px;
-}
-.card-content {
-  margin-top: 10px;
-}
+
 
 .card-content h4 {
   color: blue;
@@ -364,26 +317,7 @@ footer p {
     width: 100px;
     height: 90px;
   }
-  /* animation Effects for right image in the header */
-  @keyframes animate_left {
-    0%,
-    100% {
-      transform: translateX(1px);
-    }
-    50% {
-      transform: translateY(20px);
-    }
-  }
-  /* animation Effects for right image in the header */
-  @keyframes animate_right {
-    0%,
-    100% {
-      transform: translateX(-5px);
-    }
-    50% {
-      transform: translateY(30px);
-    }
-  }
+ 
 
   .card-container {
     padding: 20px;
